@@ -7,7 +7,9 @@
 # Don't include uploads and precompiled assets
 /public/uploads
 /public/assets
-/public/certificates
+
+# Don't include APNS and other certificates
+/certificates
 
 # Standard .gitignore file for Ruby on Rails from github.com
 *.rbc
